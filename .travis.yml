@@ -1,0 +1,10 @@
+notifications:
+  slack: top-testing:KqElk9A01LpRWMHMyH9cMdOE
+addons:
+  sauce_connect:
+    username: "cushina"
+    access_key: "7c960c0d-a549-44c9-9795-e2e7ce739021"
+language: java
+sudo: false
+script: mvn clean test
+
